@@ -1,11 +1,14 @@
+import Hero from './components/Hero';
 import './App.css';
 import Home from './components/Home';
 
 function App() {
   return (
     <>
-    <div>Welcome to Codice d' Boca</div>
-    <Home />
+    <main className='container'>
+      <Hero />
+      <Home />
+    </main>
     </>
   );
 }
